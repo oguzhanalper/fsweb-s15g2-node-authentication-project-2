@@ -26,10 +26,10 @@ Erişim fonksiyonlarını `api/users/users-model.js` dosyasına yazacaksınız:
 
 Auth middlewarelarını `api/auth/auth-middleware.js` dosyasına yazacaksınız:
 
-- [ ] `sinirli`
-- [ ] `sadece`
-- [ ] `usernameVarmi`
-- [ ] `rolAdiGecerlimi`
+- [+] `sinirli`
+- [+] `sadece`
+- [+] `usernameVarmi`
+- [+] `rolAdiGecerlimi`
 
 #### 2C - Uçnoktalar
 
