@@ -37,13 +37,13 @@ Kimlik doğrulama, JSON Web Tokenler kullanılarak uygulanacaktır.
 
 Aşağıdaki uçnoktaları `api/auth/auth-router.js` dosyasına yazın:
 
-- [ ] `[POST] /api/auth/register`
-- [ ] `[POST] /api/auth/login`
+- [+] `[POST] /api/auth/register`
+- [+] `[POST] /api/auth/login`
 
 `api/users/users-router.js` içindeki uçnoktalar hazır ama yine de bir göz atın:
 
-- [ ] `[GET] /api/users` - sadece geçerli tokena sahip olan kullanıcılar erişebilir
-- [ ] `[GET] /api/users/:user_id` - sadece geçerli tokena sahip olan kullanıcılar ve rolü admin olan kullanıcılar erişebilir
+- [+] `[GET] /api/users` - sadece geçerli tokena sahip olan kullanıcılar erişebilir
+- [+] `[GET] /api/users/:user_id` - sadece geçerli tokena sahip olan kullanıcılar ve rolü admin olan kullanıcılar erişebilir
 
 #### 2D - Secret Dosyaları
 
