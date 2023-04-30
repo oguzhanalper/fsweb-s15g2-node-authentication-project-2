@@ -18,9 +18,9 @@ Aşağıdaki görevleri tamamlamak ve uygulamanın tüm testleri geçmesi için 
 
 Erişim fonksiyonlarını `api/users/users-model.js` dosyasına yazacaksınız:
 
-- [ ] `bul`
-- [ ] `goreBul`
-- [ ] `idyeGoreBul`
+- [+] `bul`
+- [+] `goreBul`
+- [+] `idyeGoreBul`
 
 #### 2B - Middleware Fonksiyonları
 
