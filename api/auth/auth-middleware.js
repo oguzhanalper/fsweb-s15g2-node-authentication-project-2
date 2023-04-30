@@ -26,7 +26,7 @@ const sinirli = (req, res, next) => {
       if (err) {
         next({
           status: 401,
-          message: "Token geçersizdir",
+          message: "/token gecersizdir/i",
         });
       } else {
         req.decodedJWT = decodedJWT;
@@ -56,7 +56,7 @@ const sadece = (role_name) => (req, res, next) => {
   if (req.decodedJWT && req.decodedJWT.role_name === role_name) {
     next();
   } else {
-    next({ status: 403, message: "Bu senin için değil" });
+    next({ status: 403, message: "/bu, senin i/i" });
   }
 };
 

@@ -61,7 +61,7 @@ router.post("/login", usernameVarmi, async (req, res, next) => {
           role_name: req.user.role_name,
         },
         JWT_SECRET,
-        { expiresIn: "1d" }
+        { expiresIn: "1d" } // after 1 day , the user will be timeout from the system
       );
       res
         .status(200)
